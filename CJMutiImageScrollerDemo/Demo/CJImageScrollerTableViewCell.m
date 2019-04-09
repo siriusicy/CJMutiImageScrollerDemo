@@ -83,7 +83,7 @@
 //    NSLog(@"targetContentOffset x:%f - y:%f",targetContentOffset->x,targetContentOffset->y);
     //在这个方法里提前能知道停止的位置
     CGFloat targetOffsetX = targetContentOffset->x;
-    self.currentPage = targetOffsetX / kScreenWidth;
+    self.currentPage = targetOffsetX / kScreenWidth + 0.5;
 
 }
 
